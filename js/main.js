@@ -113,6 +113,10 @@ $(document).ready(function () {
         $('#count-existing').html(value);
     });
 
+$('#calendar').fullCalendar({
+        // put your options and callbacks here
+	height: 350
+    })
 
 
 });

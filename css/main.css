@@ -68,6 +68,21 @@
     min-height: 540px
 }
 
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #555;
+    cursor: default;
+    background: none;
+    border-bottom: 3px solid #ea9431;
+	border-top:none;
+	border-left:none;
+	border-right:none;
+	
+}
+.nav-tabs{
+	border: none;
+}
+
 /*bootstrap css changes */
 
 /* custom css */
@@ -173,7 +188,7 @@ footer p {
 }
 
 .panel.panel-default p{
-    font-size: 12px
+    font-size: 14px
 }
 
 .tag-bar{
@@ -188,25 +203,25 @@ footer p {
   cursor: pointer;
 }
 .badge-error {
-  background-color: #b94a48;
+  background-color: #ed1c24;
 }
 .badge-error:hover {
   background-color: #953b39;
 }
 .badge-warning {
-  background-color: #f89406;
+  background-color: #ea9431;
 }
 .badge-warning:hover {
   background-color: #c67605;
 }
 .badge-success {
-  background-color: #468847;
+  background-color: #36af47;
 }
 .badge-success:hover {
   background-color: #356635;
 }
 .badge-info {
-  background-color: #3a87ad;
+  background-color: #0098da;
 }
 .badge-info:hover {
   background-color: #2d6987;
@@ -218,5 +233,141 @@ footer p {
   background-color: #1a1a1a;
 }
 
+.column_one{	
+	margin: 15px 0 0 0
+}
 
+.myProject_completed, .myProject_active,
+.myProject_onhold, .myProject_dropped{
+	margin-top: 5px;	
+}
+
+.filtersearch .fa{
+color: #fff;	
+}
+.filtersearch .label-default{
+	background: #b9b9b9;
+	
+}
+.filtersearch button.btn-default{ border-radius: 0 !important }
+
+.btn-grey{
+	background: #b9b9b9;
+	color: #fff;
+}
+.search_tags .btn{padding: 3px 12px;} 
+
+.btn-outline {
+    background-color: transparent;
+    color: inherit;
+    transition: all .5s;
+}
+
+.btn-primary.btn-outline {
+    color: #428bca;
+}
+
+.btn-success.btn-outline {
+    color: #5cb85c;
+}
+
+.btn-info.btn-outline {
+    color: #5bc0de;
+}
+
+.btn-warning.btn-outline {
+    color: #f0ad4e;
+}
+
+.btn-danger.btn-outline {
+    color: #d9534f;
+}
+
+.btn-primary.btn-outline:hover,
+.btn-success.btn-outline:hover,
+.btn-info.btn-outline:hover,
+.btn-warning.btn-outline:hover,
+.btn-danger.btn-outline:hover {
+    color: #fff;
+}
+.skillverified.label-success{
+	
+	border:1px solid #5cb85c;
+}
+.skillverified .fa{color: #5cb85c}
+
+.starrr .glyphicon {
+	color: #f0ae4d;
+}
+.starrr .glyphicon-star-empty {
+	color: #c1c0bf;
+}
+
+.talent_grid-view .panel-footer{background: #fff}
+
+.talent_grid-view  .btn-xs{
+	
+	padding-right: 20px;
+	padding-left: 20px;
+}
+.text-l{
+	font-size: 16px;
+}
+
+.profileView .panel-footer{
+	background: #fff;
+	border: none;
+}
+.starrr{ font-size: 20px}
+.btn {padding-right: 40px;
+padding-left: 40px}
+
+.list-height-20px li{
+	margin: 10px 0
+}
+
+p{
+	color: #373737
+}
+
+.skillDetails span{
+	line-height: 30px;
+	background: #dfe1e5;
+	color: #77808e;
+	font-weight: 100
+}
+
+.panel-default>.panel-heading{
+	background: #f6f7f7;
+}
+
+.dataTable {	
+	border: 1px solid #e7e7e7 !important;
+}
+
+.dataTable thead:first-child tr th{
+	border: 1px solid #e7e7e7;
+}
+
+.dataTable thead:first-child{
+background: #f9f9f9; /* Old browsers */
+background: -moz-linear-gradient(top, #f9f9f9 0%, #f3f3f3 51%, #e9e9e9 99%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #f9f9f9 0%,#f3f3f3 51%,#e9e9e9 99%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #f9f9f9 0%,#f3f3f3 51%,#e9e9e9 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#e9e9e9',GradientType=0 ); /* IE6-9 */	
+}
+
+.text-blue{	
+	color: #2492c9
+}
+
+.panel-footer{
+	background: #fff;
+	border-bottom: 1px solid #ddd;
+	border-top: none;
+}
+
+.borderless td, .borderless th {
+    border: none !important;
+}
 /* custom css */
