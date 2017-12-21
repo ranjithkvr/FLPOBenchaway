@@ -1,0 +1,24 @@
+{
+  "name": "benchaway",
+  "version": "1.0.0",
+  "description": "benchaway",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "benchaway"
+  ],
+  "author": "benchaway",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.16.2"
+  },
+  "dependencies": {
+    "billboard.js": "^1.2.0",
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.2.1"
+  }
+}
