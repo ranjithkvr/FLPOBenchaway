@@ -1,0 +1,222 @@
+/* bootstrap css changes */
+
+.navbar-brand {
+    font-size: 25px;
+}
+
+.navbar-inverse {
+    background-color: #0098da;
+    border-color: #0098da;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #fff;
+}
+
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .active > a:hover {
+    color: #fff;
+    background-color: #0086bf;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #fff;
+}
+
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:focus,
+.navbar-inverse .navbar-nav > .open > a:hover {
+    color: #fff;
+    background-color: #0086bf;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: #0098da;
+}
+
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
+    border-color: #0098da;
+}
+
+@media (max-width: 767px) {
+    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+        color: #fff;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-inverse .navbar-nav .open .dropdown-menu .divider {
+        background-color: #0098da;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .jumbotron {
+        padding-top: 80px;
+        padding-bottom: 0;
+    }
+}
+
+.jumbotron {
+    padding-top: 80px;
+    margin-bottom: 0;
+    padding-bottom: 30px;
+    min-height: 540px
+}
+
+/*bootstrap css changes */
+
+/* custom css */
+
+/* colors */
+
+.text-color-orange {
+    color: #f5b00a
+}
+
+
+
+.bg-color-dark_green {
+    background: #2b957a;
+}
+
+.bg-color-light_green {
+    background: #37bc9b;
+}
+
+
+.bg-color-dark_blue {
+    background: #2f80e7;
+}
+
+.bg-color-light_blue {
+    background: #5d9cec;
+}
+
+.bg-color-red {
+    background: #d9534f;
+}
+
+.bg-color-green {
+    background: #5cb85c;
+
+}
+
+/* colors */
+
+.legend {
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+.legend rect {
+    stroke-width: 2;
+}
+
+.legend text {
+    fill: lightcyan;
+}
+
+.payment .box {
+    color: #fff;
+    padding: 20px 10px
+}
+
+.payment .box h3 {
+    padding: 0;
+    margin: 0;
+}
+
+
+.myprojects .box {
+    padding: 15px;
+
+    color: #fff;
+}
+
+.dashboard_top-section .col-md-4 .panel {
+    min-height: 300px
+}
+
+.search__filter .dropdown-menu { 
+    width: 60vw;
+    min-width:69vw 
+}
+
+footer {
+    background: #0098da;
+    color: #fff;
+}
+
+footer p {
+    color: #fff;
+}
+
+.navbar-login {
+    width: 305px;
+    padding: 10px;
+    padding-bottom: 0px;
+}
+
+.navbar-login-session {
+    padding: 10px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.icon-size {
+    font-size: 87px;
+}
+
+.panel.panel-default p{
+    font-size: 12px
+}
+
+.tag-bar{
+       margin-top: 50px;
+}
+
+/* badge color */
+
+.badge:hover {
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
+.badge-error {
+  background-color: #b94a48;
+}
+.badge-error:hover {
+  background-color: #953b39;
+}
+.badge-warning {
+  background-color: #f89406;
+}
+.badge-warning:hover {
+  background-color: #c67605;
+}
+.badge-success {
+  background-color: #468847;
+}
+.badge-success:hover {
+  background-color: #356635;
+}
+.badge-info {
+  background-color: #3a87ad;
+}
+.badge-info:hover {
+  background-color: #2d6987;
+}
+.badge-inverse {
+  background-color: #333333;
+}
+.badge-inverse:hover {
+  background-color: #1a1a1a;
+}
+
+
+/* custom css */
